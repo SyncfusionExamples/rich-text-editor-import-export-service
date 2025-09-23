@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Syncfusion.DocIO.Net.Core" Version="31.1.20" />
+    <PackageReference Include="Syncfusion.DocIORenderer.Net.Core" Version="31.1.20" />
+    <PackageReference Include="Syncfusion.HtmlToPdfConverter.Net.Windows" Version="31.1.20" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\files\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\Uploads\" />
+  </ItemGroup>
+
+</Project>
