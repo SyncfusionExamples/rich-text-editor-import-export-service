@@ -1,30 +1,57 @@
-# rich-text-editor-import-export-service
+# Rich Text Editor Import/Export Service
 
-## 📄 Purpose
-This repository provides backend services to support advanced import/export functionalities for the Syncfusion Rich Text Editor (RTE). It focuses on:
+A simple backend service that supports **import** and **export** workflows for the Syncfusion Rich Text Editor.
 
-- **Document Export**: Convert RTE content to **PDF** and **Word (DOCX)** formats.
-- **Document Import**: Load and render content from **Word (DOCX)** files into the RTE.
+## Purpose
 
-## 🚀 Setup & Running Steps
+This repository provides backend services that support import and export workflows for the Syncfusion Rich Text Editor. It includes:
+
+- Document export: convert editor content to PDF and Word (DOCX).
+- Document import: read DOCX files and return content usable by the editor.
+
+## Setup & Run
 
 ### Prerequisites
+
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - Visual Studio 2022+ or VS Code
-- Syncfusion license (for required NuGet packages)
+- Syncfusion license (required for some NuGet packages)
 
-### Installation
+## Setup & Running Steps
+
+Installation
+
 ```bash
-# Clone the repository
-git clone https://github.com/SyncfusionExamples/rich-text-editor-import-export-service.git
-cd rich-text-editor-import-export-service
+git clone https://github.com/SyncfusionExamples/blazor-richtexteditor-image-upload.git
+cd blazor-richtexteditor-image-upload
+```
 
-# Restore NuGet packages
+Restore NuGet packages
+
+```bash
 dotnet restore
 ```
 
-### Running the Service
+Run the application
+
 ```bash
-# Run the application
 dotnet run
 ```
+
+## Quick usage
+
+Start the service and call the provided import/export endpoints from your Rich Text Editor sample to convert or import documents.
+
+## Troubleshooting
+
+- Ensure NuGet packages are restored and the project builds before running.
+- If export fails, check browser console and server logs for errors and confirm any required licenses are configured.
+
+## Support
+
+This sample is provided for demonstration purposes. For issues, open an issue in the repository.
+
+## See also
+
+- [Online examples](https://blazor.syncfusion.com/demos/rich-text-editor/overview?theme=fluent2)
+- [Documentation](https://blazor.syncfusion.com/documentation/rich-text-editor/getting-started-webapp)
