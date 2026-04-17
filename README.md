@@ -28,3 +28,16 @@ dotnet restore
 # Run the application
 dotnet run
 ```
+
+The service will start on `http://localhost:5000` by default.
+
+## ✨ Features
+- **PDF & Word Export**: Convert RTE content to PDF and DOCX formats
+- **Word Import**: Parse and render DOCX documents in the editor
+- **RESTful API**: HTTP endpoints for seamless frontend integration
+- **Format Preservation**: Maintains formatting and styling during conversions
+
+## 🔧 API Endpoints
+- `/api/export/pdf` - Export to PDF
+- `/api/export/word` - Export to DOCX
+- `/api/import/word` - Import DOCX files
